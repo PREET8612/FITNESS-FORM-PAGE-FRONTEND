@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+body {
+    background: no-repeat;
+    background-image: url('img/bg1.avif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+
+    backdrop-filter: blur(150px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 45px;
+    color: white;
+    height: 60px;
+}
+
+.left {
+    filter: invert(100%);
+    height: 100%;
+    width: 70px;
+    height: 40px;
+    margin: auto 25px;
+    background: url('img/logo3.png') no-repeat center center;
+    background-size: cover;
+    transition: 0.5s all ease-in-out;
+}
+
+
+.left:hover{
+    cursor:pointer;
+    transform: scale(1.25);
+    filter: drop-shadow(0 0 5px white);
+}
+li {
+    display: inline-block;
+    list-style: none;
+}
+
+.mid {
+    margin-left: auto;
+}
+
+.mid a {
+    color: white;
+    margin: auto 15px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    transition: .5s all ease-in-out;
+}
+
+
+.mid a:hover {
+    font-size: 20px;
+    color: yellow;
+    text-shadow: 0px 0px 20px white;
+}
+
+.right {
+    padding: 10px;
+}
+
+.btn {
+    font-size: 13.25px;
+    cursor: pointer;
+    transition: .5s all ease-in-out;
+    background: transparent;
+    border: none;
+    border: 2px solid white;
+    color: white;
+    padding: 5px;
+    margin: auto 5px;
+}
+
+.btn:hover {
+    font-size: 16px;
+    color: yellow;
+    border: 2px solid yellow;
+    text-shadow: 0px 0px 20px white;
+}
+
+.container {
+    padding: 100px;
+    margin: auto;
+    color: white;
+}
+
+h1 {
+    margin: 100px auto;
+    text-shadow:0px 0px 40px yellow;  
+}
+
+.submit {
+    width: 125px !important;
+    margin: 20px auto !important;
+    cursor: pointer;
+    font-size: 13px;
+    transition: .2s all ease-in-out;
+}
+.submit:hover{
+    font-size: 16px;
+    color: yellow;
+    border-color: yellow;
+    text-shadow:0px 0px 20px white;
+}
+
+.container input {
+    background-color: transparent;
+    color: white;
+    border: 2px solid whitesmoke;
+    width: 250px;
+    height: 25px;
+    margin: 3px auto;
+    border-radius: 4px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+::placeholder {
+    color: white;
+    text-size-adjust: 25px;
+}

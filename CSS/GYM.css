@@ -1,0 +1,97 @@
+body {
+    background: no-repeat;
+    background-image: url('img/bg2.jpg');
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    font-size: 18px;
+}
+
+.navbar li a:hover,.navbar li a.active {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.left {
+    
+    font-size: 15px ;
+    position: absolute;
+    left: 34px;
+    top: 18px;
+    display:flex;
+    border: 2px solid red;
+    color: white;
+    margin: 0px;
+    text-align: center;
+
+}
+
+.left img{
+    mix-blend-mode:darken;
+    width: 55px;
+    margin: auto 18px;
+    padding: 4px;
+}
+.mid {
+    display: block;
+    width: 45%;
+    margin: 18px auto;
+    color: white;
+    border: 2px solid purple;
+}
+
+.right {
+    margin: 0px;
+    position: absolute;
+    right: 34px;
+    top: 18px;
+    display: inline-block;
+    color: white;
+    border: 2px solid coral;
+}
+
+.btn {
+    font-family: 'Balsamiq Sans', cursive;
+    mix-blend-mode: multiply;
+    margin: 0px 9px;
+    color: black;
+    background-color: none;
+    padding: 3px 10px;
+    border: 2px solid gray;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: gray;
+}
+.container{
+    border: 2px solid blueviolet    ;
+    display: inline-block;
+    padding: 70px 150px;
+    border-radius: 30px;
+    width: 25%;
+    font-size:12px ;
+}
+.form-group input{
+    font-family: 'Balsamiq Sans', cursive;
+    text-align: center;
+    display: block;
+    width: 250px;
+    border: 2px solid blueviolet;
+    border-radius:4px ;
+    padding: 4px;
+    margin: 4px ;
+}
